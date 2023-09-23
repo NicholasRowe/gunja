@@ -8,14 +8,13 @@ import { Link } from "react-router-dom";
 
 
 
-
 const ContactUs = () => {
 
     const branceAddress = [
         {
             branceName: 'Gunja Gold Co Ltd',
-            location: 'Dhaka In Twin Tower Concord Shopping Complex',
-            openingTime: '81 Moo, 8 Muen Si',
+            location: '23 Moo 8 Muen Si, Samrong Thap, Surin, Thailand, 32170',
+            openingTime: '',
             email: 'gunjagold@gmail.com',
             phone: '065397 9851'
         },
@@ -35,9 +34,8 @@ const ContactUs = () => {
                             <div className="contact-info wow fadeInLeft animated" data-animation="fadeInRight" data-delay=".4s">
                                 <div className="section-title center-align">
                                     <h2>
-                                        {'Address'} <br /> <span>{'information'}</span>
+                                        {'Address'} <br /> 
                                     </h2>
-                                    <p>{'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'}</p>
                                 </div>
                                 <div className="row mt-50">
                                                 <div className="col-lg-6 contact_info">
@@ -54,9 +52,8 @@ const ContactUs = () => {
                             <div className="contact-bg02 wow fadeInRight animated">
                                 <div className="section-title center-align">
                                     <h2>
-                                        {'Get in Touch'}<br /> <span>{'Inform Us'} </span>
+                                        {'Get in Touch'}<br /> 
                                     </h2>
-                                    <p>{'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'}</p>
                                 </div>
                                 <Form />
                             </div>
